@@ -9,8 +9,10 @@
         <script src="../sr-basic-feature/node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
         <script src="../sr-basic-feature/node_modules/jquery-toast-plugin/dist/jquery.toast.min.js" type="text/javascript"></script>
         
+        <script src="../sr-basic-feature/dist/sr-basic-functions.js" type="text/javascript"></script>
         <script src="../sr-basic-feature/dist/sr-basic-feature.js" type="text/javascript"></script>
         
+        <link href="../sr-basic-feature/node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="src/others/rainbow-master/themes/css/rainbow.css" rel="stylesheet" type="text/css">
         <style>
             table
@@ -112,6 +114,22 @@
                     <td>Table Template </td>
                     <td>
                         <?php include_once './src/elements/sr-table-template/index.php'; ?>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>7</td>
+                    <td>Table Template </td>
+                    <td>
+                        <?php include_once './src/elements/sr-cascade/index.php'; ?>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>8</td>
+                    <td>Loader </td>
+                    <td>
+                        <?php include_once './src/elements/sr-loader/index.php'; ?>
                     </td>
                 </tr>
             </tbody>
