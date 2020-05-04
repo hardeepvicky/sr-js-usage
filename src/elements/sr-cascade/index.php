@@ -2,7 +2,7 @@
     <div class="box-header">Where can be used</div>
     <div class="box-body">
         <ul>
-            <li>implement on textarea, text input</li>
+            <li>implement on select only</li>
         </ul>
     </div>
 </div>

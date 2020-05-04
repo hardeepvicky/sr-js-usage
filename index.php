@@ -3,17 +3,23 @@
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         
-        <link href="../sr-basic-feature/node_modules/jquery-toast-plugin/dist/jquery.toast.min.css" rel="stylesheet" type="text/css">
-        <link href="../sr-basic-feature/dist/sr-basic-feature.css" rel="stylesheet" type="text/css">
-        
         <script src="../sr-basic-feature/node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+        
+        
+        <link href="../sr-basic-feature/node_modules/jquery-toast-plugin/dist/jquery.toast.min.css" rel="stylesheet" type="text/css">
         <script src="../sr-basic-feature/node_modules/jquery-toast-plugin/dist/jquery.toast.min.js" type="text/javascript"></script>
         
+        <link href="../sr-basic-feature/dist/sr-basic-feature.css" rel="stylesheet" type="text/css">
         <script src="../sr-basic-feature/dist/sr-basic-functions.js" type="text/javascript"></script>
         <script src="../sr-basic-feature/dist/sr-basic-feature.js" type="text/javascript"></script>
         
+        <link href="../sr-bootstrap-components/dist/sr-ajax-file-upload.css?1" rel="stylesheet" type="text/css">
+        <script src="../sr-bootstrap-components/dist/sr-ajax-file-upload.js?1" type="text/javascript"></script>
+        
         <link href="../sr-basic-feature/node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="src/others/rainbow-master/themes/css/rainbow.css" rel="stylesheet" type="text/css">
+        <link href="src/others/highlight/styles/default.css" rel="stylesheet" type="text/css">
+        
+        <link href="src/others/bootstrap-4.0.0/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <style>
             table
             {
@@ -119,7 +125,7 @@
                 
                 <tr>
                     <td>7</td>
-                    <td>Table Template </td>
+                    <td>Cascade </td>
                     <td>
                         <?php include_once './src/elements/sr-cascade/index.php'; ?>
                     </td>
@@ -132,9 +138,35 @@
                         <?php include_once './src/elements/sr-loader/index.php'; ?>
                     </td>
                 </tr>
+                
+                <tr>
+                    <td>9</td>
+                    <td>Table Export CSV </td>
+                    <td>
+                        <?php include_once './src/elements/sr-table-csv/index.php'; ?>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>10</td>
+                    <td>Read File </td>
+                    <td>
+                        <?php include_once './src/elements/sr-read-csv/index.php'; ?>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>11</td>
+                    <td>Ajax File Upload </td>
+                    <td>
+                        <?php include_once './src/elements/sr-ajax-file-upload/index.php'; ?>
+                    </td>
+                </tr>
             </tbody>
         </table>
     </body>
 
-    <script src="src/others/rainbow-master/dist/rainbow.min.js"></script>
+    <script src="src/others/highlight/highlight.pack.js"></script>
+    <script src="src/others/bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </html>

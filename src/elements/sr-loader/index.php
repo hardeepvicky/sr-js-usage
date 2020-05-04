@@ -2,7 +2,7 @@
     <div class="box-header">Where can be used</div>
     <div class="box-body">
         <ul>
-            <li>implement on textarea, text input</li>
+            <li>implement on any block element</li>
         </ul>
     </div>
 </div>

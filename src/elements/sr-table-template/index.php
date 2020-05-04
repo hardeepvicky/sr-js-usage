@@ -2,9 +2,7 @@
     <div class="box-header">Where can be used</div>
     <div class="box-body">
         <ul>
-            <li>implement change on checkbox input</li>
-            <li>implement change on select</li>
-            <li>implement click on any</li>
+            <li>implement on table only</li>
         </ul>
     </div>
 </div>
